@@ -1,7 +1,7 @@
-name = 'Theme name'
+description = 'Theme description'
 license = 'MIT'
 licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+name = 'Theme name'
 
 # The home page of the theme, where the source can be found
 homepage = 'https://github.com/owner/repo'
@@ -10,22 +10,21 @@ homepage = 'https://github.com/owner/repo'
 demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
 features = ['some', 'awesome', 'features']
+tags = ['blog', 'company']
 
 # If the theme has multiple authors
 authors = [
   {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
 ]
 
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
+homepage = 'https://hhk.my.id'
+name = 'Hein Htet Kyaw'
 
 # If porting an existing theme
 [original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+author = 'Name of original author'
+homepage = 'Website of original author'
+repo = 'https://github.com/owner/repo'
